@@ -28,7 +28,7 @@ Simulate the data using dictionary
 ```
 data-simulator simulate --url https://s3.amazonaws.com/dictionary-artifacts/bhcdictionary/0.4.3/schema.json --path ./data-simulator/sample_test_data --program DEV --project test
 ```
-
+The generated JSON files can be converted to AVRO format (e.g., for use with PCDC tools) using the `pypfb` Python SDK; see https://github.com/uc-cdis/pypfb for details.
 Required arguments:
 * url: s3 dictionary link
 * path: path to save files to
